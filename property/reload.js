@@ -1,0 +1,1 @@
+setTimeout(()=>{for(var e=0;e<=document.querySelectorAll("button.v-reload-web").length;e++)document.querySelectorAll("button.v-reload-web")[e].addEventListener("click",()=>{window.location.reload()})},300);
