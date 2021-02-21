@@ -564,7 +564,7 @@ let valueComponent = [
          right: 0;
          transform: translateX(100%);
          align-items: center;
-         opacity: 0;
+         opacity: 1;
          z-index: -1;
          top: 30px;
          height: 100vh;
@@ -688,7 +688,7 @@ let valueComponent = [
          right: 0;
          transform: translateX(100%);
          align-items: center;
-         opacity: 0;
+         opacity: 1;
          top: 47px;
          height: 100vh;
          justify-content: space-evenly;
