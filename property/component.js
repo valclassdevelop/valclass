@@ -455,7 +455,7 @@ let valueComponent = [
      }`,
    `
      .v-navbar {
-      z-index: 2;
+      z-index: 999;
       display: flex;
       font-family:sans-serif;
       background-color: rgb(107, 107, 103);
@@ -473,7 +473,7 @@ let valueComponent = [
       display: flex;
       justify-content: space-between;
       list-style: none;
-      z-index: 1;
+      z-index: -1;
       width: 40%;
    }
    
@@ -489,7 +489,7 @@ let valueComponent = [
    .v-btn-toggle {
       position: relative;
       display: flex;
-      z-index: 3;
+      z-index: 2;
       flex-direction: column;
       cursor: pointer;
       height: 23px;
@@ -524,7 +524,7 @@ let valueComponent = [
       transform: translateX(0%);
       right: 0;
       opacity: 1;
-      z-index: 1;
+      z-index: -1;
       transition: 0.4s ease;
    }
    
@@ -547,7 +547,7 @@ let valueComponent = [
    @media screen and (max-width: 768px) {
       .v-navbar ul {
          width: 50%;
-         z-index: 1;
+         z-index: -1;
       }
    }
    
@@ -565,7 +565,7 @@ let valueComponent = [
          transform: translateX(100%);
          align-items: center;
          opacity: 0;
-         z-index: 1;
+         z-index: -1;
          top: 30px;
          height: 100vh;
          justify-content: space-evenly;
@@ -577,7 +577,7 @@ let valueComponent = [
      .v-navbar-fixed {
       position: fixed;
       width: 100vw;
-      z-index: 2;
+      z-index: 999;
       display: flex;
       font-family:sans-serif;
       background-color: rgb(107, 107, 103);
@@ -596,7 +596,7 @@ let valueComponent = [
       display: flex;
       justify-content: space-between;
       list-style: none;
-      z-index: 1;
+      z-index: -1;
       width: 40%;
    }
    
@@ -613,7 +613,7 @@ let valueComponent = [
    .v-btn-toggle {
       position: relative;
       display: flex;
-      z-index: 3;
+      z-index: 2;
       flex-direction: column;
       cursor: pointer;
       height: 23px;
@@ -648,7 +648,7 @@ let valueComponent = [
       transform: translateX(0%);
       opacity: 1;
       right: 0;
-      z-index: 1;
+      z-index: -1;
       transition: 0.4s ease;
    }
    
@@ -670,7 +670,7 @@ let valueComponent = [
    @media screen and (max-width: 768px) {
       .v-navbar-fixed ul {
          width: 50%;
-         z-index: 1;
+         z-index: -1;
       }
    }
    
@@ -684,7 +684,7 @@ let valueComponent = [
          position: fixed;
          flex-direction: column;
          background-color: rgb(107, 107, 103);
-         z-index: 1;
+         z-index: -1;
          right: 0;
          transform: translateX(100%);
          align-items: center;
