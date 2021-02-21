@@ -473,6 +473,7 @@ let valueComponent = [
       display: flex;
       justify-content: space-between;
       list-style: none;
+      z-index: -1;
       width: 40%;
    }
    
@@ -523,6 +524,7 @@ let valueComponent = [
       transform: translateX(0%);
       right: 0;
       opacity: 1;
+      z-index: -1;
       transition: 0.4s ease;
    }
    
@@ -545,6 +547,7 @@ let valueComponent = [
    @media screen and (max-width: 768px) {
       .v-navbar ul {
          width: 50%;
+         z-index: -1;
       }
    }
    
@@ -558,11 +561,11 @@ let valueComponent = [
          position: absolute;
          flex-direction: column;
          background-color: rgb(107, 107, 103);
-         z-index: 1;
          right: 0;
          transform: translateX(100%);
          align-items: center;
          opacity: 0;
+         z-index: -1;
          top: 30px;
          height: 100vh;
          justify-content: space-evenly;
@@ -593,6 +596,7 @@ let valueComponent = [
       display: flex;
       justify-content: space-between;
       list-style: none;
+      z-index: -1;
       width: 40%;
    }
    
@@ -644,6 +648,7 @@ let valueComponent = [
       transform: translateX(0%);
       opacity: 1;
       right: 0;
+      z-index: -1;
       transition: 0.4s ease;
    }
    
